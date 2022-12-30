@@ -5,7 +5,7 @@ import {DATA} from "./Data"
 
 const App = () => {
   const [theme , setTheme] = useState("light");
-  const [digits , setdigits] = useState("444");
+  const [digits , setdigits] = useState("");
   const [result , setResult] = useState("");
 console.log(typeof digits);
   useEffect(() => {
